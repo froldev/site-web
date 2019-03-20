@@ -14,12 +14,13 @@ h6 {
     max-width: 100%;
 }
 
-h1{
-  font-size:45px;
+h1 {
+    font-size: 45px;
 }
 
 h2 {
-    text-shadow: 1px 1px 1px #062140 !important;
+    color: #007BFF !important;
+    text-shadow: 2px 2px 2px #062140 !important;
 }
 
 img {
@@ -40,16 +41,43 @@ a:hover {
 }
 
 section {
-    padding: 60px 0 80px 0;
+    padding: 20px 20px;
+    padding-bottom:60px;
 }
 
 section .heading {
     text-align: center;
-    padding-bottom: 40px;
+    padding: 20px  60px;
 }
 
 section .heading h2 {
     text-transform: uppercase;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* COULEURS DES SECTIONS */
+
+.blue-section {
+    background: #183C55 !important;
+}
+
+.white-section {
+    background: #fff !important;
+}
+
+.white-text{
+    color: #fff !important;
+}
+
+.blue-text{
+    color: #183C55 !important;
+}
+
+.white-heading{
+    text-shadow: 2px 2px 2px #fff !important;
 }
 
 
@@ -63,6 +91,13 @@ section .heading h2 {
     height: 2px;
     background: #fff !important;
     margin: 0 auto;
+}
+
+.blue-divider {
+    width: 100px;
+    height: 2px;
+    background: #007BFF !important;
+    margin: 10px auto;
 }
 
 
@@ -83,12 +118,34 @@ section .heading h2 {
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
     /*transition du bouton*/
-    background: transparent;
+    background: #007BFF;
 }
 
 .button1:hover {
     background: #fff !important;
     color: #007BFF !important;
+    border: 1px solid #007BFF !important;
+    text-decoration: none;
+}
+
+.button2 {
+    width: 250px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #183C55;
+    border: 1px solid #183C55;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    /*transition du bouton*/
+    background: #fff;
+}
+
+.button2:hover {
+    background: #183C55 !important;
+    color: #fff !important;
     text-decoration: none;
 }
 
@@ -104,12 +161,14 @@ section .heading h2 {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .navbar img {
     height: 50px;
     width: 50px;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 .navbar .brand-name {
@@ -184,7 +243,6 @@ footer {
     width: 90%;
     margin: 0 Auto;
     padding: 20px;
-    #fff;
     border: 1px solid #000;
 }
 
