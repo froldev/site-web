@@ -21,11 +21,7 @@ h1 {
 h2 {
     color: #007BFF !important;
     text-shadow: 2px 2px 2px #062140 !important;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    text-transform: uppercase;
 }
 
 ul {
@@ -42,16 +38,31 @@ a:hover {
 
 section {
     padding: 20px 20px;
-    padding-bottom:60px;
+    padding-bottom: 60px;
 }
 
 section .heading {
     text-align: center;
-    padding: 20px  60px;
+    padding-top: 20px;
 }
 
-section .heading h2 {
-    text-transform: uppercase;
+section .row a {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
 }
 
 
@@ -68,15 +79,15 @@ section .heading h2 {
     background: #fff !important;
 }
 
-.white-text{
+.white-text {
     color: #fff !important;
 }
 
-.blue-text{
+.blue-text {
     color: #183C55 !important;
 }
 
-.white-heading{
+.white-heading {
     text-shadow: 2px 2px 2px #fff !important;
 }
 
@@ -90,14 +101,14 @@ section .heading h2 {
     width: 100px;
     height: 2px;
     background: #fff !important;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .blue-divider {
     width: 100px;
     height: 2px;
     background: #007BFF !important;
-    margin: 10px auto;
+    margin: 40px auto;
 }
 
 
@@ -111,9 +122,9 @@ section .heading h2 {
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    border: 1px solid white;
+    border: 1px solid #fff;
     display: inline-block;
-    margin-top: 20px;
+    margin: 40px auto;
     padding: 18px 50px;
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
@@ -132,15 +143,15 @@ section .heading h2 {
     width: 250px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #183C55;
+    color: #fff;
     border: 1px solid #183C55;
     display: inline-block;
-    margin-top: 20px;
+    margin: 40px auto;
     padding: 18px 50px;
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
     /*transition du bouton*/
-    background: #fff;
+    background: #007BFF;
 }
 
 .button2:hover {
