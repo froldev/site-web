@@ -230,10 +230,89 @@ img {
 /* FOOTER */
 
 footer {
+    text-align: center;
     background: #007BFF !important;
     color: #fff !important;
     width: 100%;
-    height: 200px;
+    height: 100%;
+    padding: 20px 0 20px;
+    border-top: 1px solid #fff;
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer .glyphicon {
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+    color: #fff !important;
+    background-color: #183C55 !important;
+    border: 1px solid #fff !important;
+    border-radius: 25%;
+    margin: 20px;
+}
+
+footer .glyphicon:hover {
+    font-size: 30px;
+    padding-left: 2px;
+    color: #183C55!important;
+    background-color: #fff !important;
+    border: 1px solid #183C55 !important;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.top-scroll {
+    cursor: pointer;
+    z-index: 99;
+    border-radius: 50em;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+footer h3 {
+    font-size: 15px;
+    height: 60px;
+    padding-top: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+footer h3 a {
+    color: #fff !important;
+}
+
+footer h3 a:hover {
+    font-weight: bold;
 }
 
 

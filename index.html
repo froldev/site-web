@@ -26,7 +26,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" id="menu">
         <div class="container">
             <a href="#index.html">
                 <div class="logo navbar-left">
@@ -54,7 +54,7 @@
 
 
     <!-- Page Content -->
-    <section class="white-section">
+    <section class="white-section" id="accueil">
 
     </section>
 
@@ -298,13 +298,50 @@
     </section>
     <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-primary">
-        <div class="container">
-            <div class="footer-copyright text-center py-3">© Copyright 2019 - Tous droits réservés
+    <footer class="container-fluid page-footer">
+
+        <!-- scroll -->
+        <div class="top-scroll bounce">
+            <a href="#accueil">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </div>
+        <!-- scroll -->
+
+        <!-- Footer Links -->
+        <div class="container text-center">
+
+            <div class="row">
+
+                <div class="col-md-12 col-lg-6 mx-auto">
+
+                    <img src="images/logo_frol.png" alt="Logo Frol Développement">
+
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2">
+                    <h3><a href="index.html">Accueil</a></h3>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2">
+                    <h3><a href="element-color.html">Couleurs</a></h3>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2">
+                    <h3><a href="element-font.html">Typographie</a></h3>
+                </div>
+
             </div>
-            <!-- /.container -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© Copyright 2019 - Tous droits réservés
+        </div>
+        <!-- Copyright -->
+
     </footer>
+    <!-- Footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script language='javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
